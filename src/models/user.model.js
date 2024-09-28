@@ -21,14 +21,14 @@ const userSchema = new Schema(
             index: true,
         },
 
-        avatar: {
-            type: String, //cloudnary url
-            required: true,
-        },
+        // avatar: {
+        //     type: String, //cloudnary url
+        //     required: true,
+        // },
 
-        coverImage: {
-            type: String, //cloudnary url
-        },
+        // coverImage: {
+        //     type: String, //cloudnary url
+        // },
 
         watchHIstory: [
             {
